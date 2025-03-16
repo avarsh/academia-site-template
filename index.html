@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Joe Academic's Website</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+
+        <meta charset="UTF-8">
+        <meta name="robots">
+        <meta name="description" content="Joe Academic's Personal Website">
+        <meta name="keywords" content="Maths">
+        <meta name="author" content="Joe Academic">
+
+        <script type="application/ld+json">
+            {
+              "@context" : "https://schema.org",
+              "@type" : "WebSite",
+              "name" : "Joe Academic's Website",
+              "url" : ""
+            }
+        </script>
+    </head>
+
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+        <!-- Content block will be centered on the page. -->
+
+            <div class="bar">
+                <div class="toc">
+                    <a href="#header">About</a>
+                    <a href="#writings">Writings</a>
+                    <a href="#talks">Talks</a>
+                    <a href="#teaching">Teaching</a>
+                    <a href="#employment">Employment</a>
+                    <a href="#education">Education</a>
+                </div>
+            </div>
+
+            <div class="section" id="header">
+
+                <div class="content">
+                
+                    <div class="two-col">
+
+                        <div class="col1">
+                            <img id="profile" src="profile.png" alt="Profile Image"> 
+                        </div>
+
+                        <div class="col2">
+                            <h1>Joe Academic</h1>
+                            <br>
+
+                            Hi, I'm Joe Academic, a post doctoral fellow at University College London,
+                            where I'm part of the Big Numbers group led by Needa Prime.
+                            <br><br>
+                            I'm interested in the arithmetic and algorithmic aspects of highly 
+                            massive numerics. My PhD focused on the problem of naming big numbers,
+                            and my more recent work centers on the Adding Big Numbers Conjecture.
+
+                            <br><br>
+
+                            Email: joe.academic [at] ucl.ac.uk
+                            <br><br>
+                            
+                            <a class="button" id="cv" href="www.google.com">CV</a>
+                            <a class="button" id="linkedin" href="www.google.com">LinkedIn</a>
+                            <a class="button" id="github" href="www.google.com">Github</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="section" id="writings">
+
+                <div class="content">
+                    <h2>
+                        Writings
+                    </h2>
+                
+                    <ol>
+                        <li>
+                            <em>"On the bigness property of some small numbers."</em> Joe Academic and Needa Prime. 
+                            Preprint, 2024.
+                        </li>
+
+                        <li>
+                            <em>"A new construction for multidigit addition."</em> Joe Academic, Needa Prime and ZZ Top. 
+                            Published in <em>The Amazing Spider-Man #129</em> 2021.
+                        </li>
+
+                        <li>
+                            <em>"Quantifying a bazillion: naming distributions for arbitrary multimodal numerics."</em> Joe Academic. 
+                            Masters thesis.
+                        </li>
+                    </ol>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="section" id="talks">
+
+                <div class="content">
+                    <h2>
+                        Talks
+                    </h2>
+
+                    <table>
+                        <tr>
+                            <th>Event</th>
+                            <th>Title</th>
+                            <th>Date</th>
+                        </tr>
+
+                        <tr>
+                            <td>UCL Early Career Researchers</td>
+                            <td>Why Counting Is Important</td>
+                            <td>12th May, 2024</td>
+                        </tr>
+
+                        <tr>
+                            <td>London Maths Seminar</td>
+                            <td>I Like Shapes (and you should too)</td>
+                            <td>10th December, 2023</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+            <div class="section" id="teaching">
+
+                <div class="content">
+                    <h2>
+                        Teaching
+                    </h2>
+
+                    <table>
+                        <tr>
+                            <th>Course</th>
+                            <th>Duration</th>
+                        </tr>
+
+                        <tr>
+                            <td>Marker for Mental Maths</td>
+                            <td>Spring 2025</td>
+                        </tr>
+
+                        <tr>
+                            <td>Lecturer for BIDMAS</td>
+                            <td>Winter 2024</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+            <div class="section" id="employment">
+
+                <div class="content">
+                    <h2>
+                        Employment
+                    </h2>
+
+                    <table class="timeline">
+                        <tr>
+                            <td class="date">2019-2021</td>
+                            <td class="desc">
+                                <h3>Professional Card Counter</h3>
+                                
+                                As a professional card counter, I successfully applied 
+                                my mathematical knowledge to verify that every deck 
+                                contained 52 unique cards, plus the two jokers.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="section" id="education">
+
+                <div class="content">
+                    <h2>
+                        Education
+                    </h2>
+
+                    <table class="timeline">
+                        <tr>
+                            <td class="date">2016-2019</td>
+                            <td class="desc">
+                                <h3>Masters in Mathematics</h3>
+                                
+                                Modules taken: division, subtraction, graphing.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="footer">
+
+            </div>
+
+            <script>
+                toc = document.getElementsByClassName('toc')[0];
+                document.getElementById('mobile-toc').innerHTML = toc.innerHTML;
+
+                function openNav() {
+                  document.getElementById("mobile-nav").style.width = "100%";
+                }
+
+                /* Set the width of the side navigation to 0 */
+                function closeNav() {
+                    document.getElementById("mobile-nav").style.width = "0";
+                } 
+            </script>
+        </div>
+    </body>
+</html>
