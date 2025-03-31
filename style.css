@@ -131,6 +131,16 @@ h2 {
   font-weight: normal;
 }
 
+h3, h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-style: italic;
+  font-weight: normal;
+}
+
 table {
   width: 100%;
   text-align: left;
@@ -175,11 +185,6 @@ td {
 
 .timeline .date {
   width: 10vw;
-}
-
-h3 {
-  margin: 0;
-  margin-bottom: 0.5em;
 }
 
 
